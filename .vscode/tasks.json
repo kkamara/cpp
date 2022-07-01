@@ -9,9 +9,9 @@
 				"-fdiagnostics-color=always",
 				"-g",
 				"-std=c++20",
-				"${env:HOME}/workspace/cpp/36/*.cpp",
+				"${env:HOME}/workspace/cpp/48/*.cpp",
 				"-o",
-				"${env:HOME}/workspace/cpp/36/rooster"
+				"${env:HOME}/workspace/cpp/48/rooster"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -30,9 +30,9 @@
 				"-fdiagnostics-color=always",
 				"-g",
 				"-std=c++20",
-				"${env:HOME}/workspace/cpp/36/*.cpp",
+				"${env:HOME}/workspace/cpp/48/*.cpp",
 				"-o",
-				"${env:HOME}/workspace/cpp/36/rooster"
+				"${env:HOME}/workspace/cpp/48/rooster"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
