@@ -1,5 +1,7 @@
 # C++
 
+This repository follows Daniel Gakwaya's course C++ Programming Course - Beginner to Advanced at https://youtu.be/8jLOx1hD3_o?si=3FhxqIqKCyoxVhq4 .
+
 [Online compiler](https://wandbox.org/).
 
 ## Contributing
