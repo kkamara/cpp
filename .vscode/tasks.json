@@ -3,15 +3,15 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++-11.2.0 build active file",
-			"command": "/usr/bin/g++-11",
+			"label": "Build with G++ 15.2.0",
+			"command": "C:/mingw64/bin/g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"-std=c++20",
-				"${env:HOME}/workspace/cpp/48/*.cpp",
+				"-std=c++23",
+				"${file}",
 				"-o",
-				"${env:HOME}/workspace/cpp/48/rooster"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -20,28 +20,7 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compiler: /usr/bin/g++-11"
-		},
-		{
-			"type": "cppbuild",
-			"label": "C/C++: clang++ 14.0.0 build active file",
-			"command": "/usr/bin/clang++",
-			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"-std=c++20",
-				"${env:HOME}/workspace/cpp/48/*.cpp",
-				"-o",
-				"${env:HOME}/workspace/cpp/48/rooster"
-			],
-			"options": {
-				"cwd": "${fileDirname}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": "build",
-			"detail": "compiler: /usr/bin/clang++"
+			"detail": "compiler: C:/mingw64/bin/g++.exe"
 		}
 	]
 }

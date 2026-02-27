@@ -53,5 +53,6 @@
     "ratio": "cpp",
     "fstream": "cpp"
   },
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe"
 }
