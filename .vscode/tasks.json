@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "Build with G++ 15.2.0",
+			"label": "Build with G++",
 			"command": "C:/mingw64/bin/g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
