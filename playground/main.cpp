@@ -1,4 +1,5 @@
 #include "libs/argparse/argparse.hpp"
+#include <print>
 
 int main(int argc, char *argv[]) {
   argparse::ArgumentParser program("playground");
@@ -18,6 +19,8 @@ int main(int argc, char *argv[]) {
 
   auto input = program.get<int>("square");
   std::cout << (input * input) << std::endl;
+
+  std::println("Hello, C++23!");
 
   return 0;
 }
